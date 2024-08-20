@@ -9,8 +9,7 @@ import (
 )
 
 var(
-	read_path, key string
-	output_path string = "./output.txt"
+	read_path, key, output_path string
 )
 
 func main(){	
