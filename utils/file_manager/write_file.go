@@ -6,6 +6,6 @@ import (
 
 func WriteFile(path string, text string)(error){
 	buf := []byte(text)
-	err := os.WriteFile(path, buf, 0444)
+	err := os.WriteFile(path, buf, 0666)
 	return err
 }

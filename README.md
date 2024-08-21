@@ -12,4 +12,4 @@ Required :
 
 Optional : 
 * -o : The output file path you want to place.
-*  -d : Decryption mode. Default is encryption mode.
+* -d : Decryption mode. Default is encryption mode.
